@@ -1,0 +1,39 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+  height: 100%;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.grid {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 10%;
+  height: 10%;
+}
+.grid:hover {
+  border: 5px solid purple;
+  cursor: crosshair;
+}
+.text {
+  text-align: center;
+  margin: 0 auto;
+}
